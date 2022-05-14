@@ -2,8 +2,8 @@ from typing import List
 
 import click
 
-from command_runner import CommandRunner
-from errors import FinishExecutionException
+from src.command_runner import CommandRunner
+from src.errors import FinishExecutionException
 
 
 # TODO: mypy is broken in this file, no time to fix all typing issues
