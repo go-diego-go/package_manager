@@ -3,3 +3,4 @@
 .coverage
 coverage/
 .vscode/
+__pycache__/
