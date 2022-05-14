@@ -12,6 +12,9 @@ def print_command_output(lines: List[str]):
     for line in lines:
         click.echo(click.style(f"\t{line}", fg="blue"))
 
+# Assumes a CLI approach, but reading the inputs as files could also be considered
+# The CLI is easier to test one command at a time
+# But some other form of "batch processing" (like reading from a file) would probably be more realistic
 
 @click.command()
 def runner() -> None:
